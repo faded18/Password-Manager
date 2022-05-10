@@ -1,0 +1,84 @@
+#manager {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+#manager-section1 {
+  height: 10vh;
+  width: 100vw;
+  /* background-color: red; */
+  padding: 10px;
+}
+
+#manager-section2 {
+  height: 80vh;
+  width: 100vw;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+}
+
+#manager-section3 {
+  height: 9vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#manager-section3 > button {
+  margrin-right: 10px;
+}
+
+.manager-card-row {
+  width: 80vw;
+}
+
+#manager-add-card {
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-no {
+  margin: 10px;
+  width: fit-content;
+
+  text-align: center;
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}

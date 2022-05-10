@@ -1,0 +1,91 @@
+body{
+    background:url("../wall.png")
+}
+/* ///////////////////////////////////////////////////////////////////////////// */
+/* /////////////////Generator CSS////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+.generator{
+    height: 100vh;
+    width: 50vw;
+    background-color: blue;
+}
+.generator-container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    
+}
+
+form div{
+    margin: 10px;
+}
+
+
+/* --------------Password Attributes----------------------- */
+
+.pass-attributes{
+    display: flex;
+    flex-flow: column wrap;
+    line-height: 2;
+}
+
+.password-length{
+    width: 25%;
+}
+
+
+
+
+/* ------------Generate button ---------------------- */
+
+.generate-button{
+    margin: 10px 53px;
+}
+
+
+
+/* ----------------Generated Password---------------- */
+
+.generated-password{
+    width: fit-content;
+    margin: 2px 0% 0px 38%;
+    height: 100px;
+}
+
+
+
+
+
+
+/* ------------Password Manager Button---------- */
+
+.password-manager-button{
+    
+    margin: 0px 0% 0px 39% ;
+    
+}
+
+.password-manager-button button{
+    height: 3rem;
+}
+
+
+
+/* ---------------Copy Button --------------- */
+
+#copy-button{
+    position: relative;
+    left: -1rem;
+    bottom: 0rem;
+    border-radius: 100%;
+    border:1px solid black;
+    height: 38px;
+    width: 38px;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+/* /////////////////Generator CSS End////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+

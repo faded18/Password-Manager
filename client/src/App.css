@@ -1,0 +1,11 @@
+.App{
+  display: flex;
+  width: 100vw;
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  /* background: #d8d8d8; */
+  /* background: #f0f2f5 ; */
+  background: url("../public/wall.png");
+  font-family: Arial, sans-serif;
+}

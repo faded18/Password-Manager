@@ -1,0 +1,28 @@
+.home-card{
+    border-radius: 7%;
+    /* border: 1px solid black; */
+    width: 14.5vw;
+    height: 39.5vh;
+    margin: 10px;
+    border-radius: 0px;
+    box-shadow: 0 0.2rem 0.5rem rgb(69 77 93 / 30%);
+    background: white;
+}
+
+
+.home-card:hover{
+    transition-property: height,width;
+    transition-duration: 150ms;
+    transition-delay: 0.1ms;
+    transition-timing-function:linear;
+    z-index: +2;
+    box-shadow: 0 0 15px 5px grey;
+}
+
+.home-card > img{
+    border-radius: 50%;
+    border: .5px solid white;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}

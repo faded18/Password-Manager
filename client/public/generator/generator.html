@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <link href="./styles.css" rel="stylesheet">
+    <title>Generator</title>
+      <body>
+        <div className="generator">
+        <div class="generator-container">
+          <h1>Password Generator</h1>
+          <form action="/save">
+            <div class="pass-attributes">
+              <div>
+                Enter Pasword Length :
+                <input id="password-length" type="number" name="password-length" />
+              </div>
+              <div>
+                Exclude Uppercase Letters :
+                <input type="checkbox" class="checkbox" name="check-uppercase" />
+              </div>
+              <div>
+                Exclude Lowercase Letters :
+                <input type="checkbox" class="checkbox" name="check-lowercase" />
+              </div>
+              <div>
+                Exclude Numbers :
+                <input type="checkbox" class="checkbox" name="check-numbers" />
+              </div>
+              <div>
+                Exclude Symbols :
+                <input type="checkbox" class="checkbox" name="check-symbols" />
+              </div>
+        
+              <div>
+                <button type="button" class="generate-button btn btn-dark">
+                  Generate
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="text-area">
+          <textarea
+            class="generated-password"
+            id="gen-password"
+            cols="50"
+            rows="4"
+            readonly
+          >
+        Generated Password</textarea
+          >
+          <button type="button" id="copy-button" class="btn btn-light">
+            <i class="far fa-copy"></i>
+          </button>
+        </div>
+        
+
+      </body>
+    <script src="./generator.js"></script>
+  </head>
+</html>
+
+
+

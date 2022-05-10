@@ -1,0 +1,27 @@
+.add-card{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-password-form{
+    margin: 10px;
+}
+.form-group-add-password{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.form-group-add-password > input{
+    margin: 5px;
+}
+
+.add-card:hover {
+    transition-property: height, width;
+    transition-duration: 150ms;
+    transition-delay: 0.1ms;
+    transition-timing-function: linear;
+    box-shadow: 0 0 15px 5px grey;
+  }
+  

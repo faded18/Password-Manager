@@ -1,0 +1,87 @@
+.manager-card {
+  height: 35vh;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+}
+.manager-card-body{
+    height: 25%;
+    width: inherit;
+}
+.manager-card-body > input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#header-manager-card {
+  display: flex;
+  align-items: center;
+  height: 25%;
+  width: inherit;
+}
+
+#header-manager-card > img {
+  border-radius: 50%;
+  border: 0.5px solid white;
+  height: 100%;
+  width: 25%;
+  margin: auto;
+}
+
+.manager-card:hover {
+  transition-property: height, width;
+  transition-duration: 150ms;
+  transition-delay: 0.1ms;
+  transition-timing-function: linear;
+  box-shadow: 0 0 15px 5px grey;
+}
+
+.manager-card-edit-btn:disabled{
+  background-color: white;
+}
+
+.manager-card-save-btn:disabled{
+  background-color: white;
+}
+
+#email-field {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#password-field {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#username-field {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#card-footer {
+  display: flex;
+  flex-direction: row;
+  height: 16%;
+  width: inherit;
+  /* background-color: rgb(74, 155, 24); */
+  align-items: center;
+  
+}
+
+.manager-card-btn {
+    height: 79%;
+    width: 20.33%;
+    border: 0px;
+    /* border-right: 0.1px solid black; */
+    border-radius: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin: 0 5px 0 17px;
+}
+#card-footer > button > img {
+  height: 20px !important;
+  width: 20px !important;
+}
